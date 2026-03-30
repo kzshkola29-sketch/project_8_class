@@ -21,19 +21,19 @@
     <p>Будь ласка, заповніть форму, щоб відправити мені повідомлення.</p>
 </center>
 
-<form action="ContactForm.php" method="post" id="form1"> 
+<form action="https://formspree.io/f/mojpdzyv" method="POST" id="form1"> 
     <table width="400" align="center">
         <tr>
             <td>Ім’я: </td>
-            <td><input name="name" type="text"></td>
+            <td><input name="name" type="text" required></td>
         </tr>
         <tr>
             <td>E-mail:</td>
-            <td><input type="email" name="email"></td>
+            <td><input type="email" name="email" required></td>
         </tr>
         <tr>
             <td>Повідомлення:</td>
-            <td><textarea name="message" cols="40" rows="5" id="message"></textarea> </td>
+            <td><textarea name="message" cols="40" rows="5" id="message" required></textarea> </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
