@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Проєкт 8 класу</title>
+</head>
+<body bgcolor="yellow">
+
+<marquee bgcolor="aqua" height="40" loop="5" behavior="slide" scrollamount="5">
+    <font face="monotypecorsiva, courier" size="+5" color="red">
+        Особиста сторінка (ім'я)
+    </font>
+</marquee>
+
+<img src="./images/myfoto.jpg" alt="foto" align="left" >
+
+<center>
+    <h1><b>Привіт!</b></h1>
+    <h2><i>МИ ЗДОБУВАЧІ ОСВІТИ ГОРЩИКІВСЬКОГО ЛІЦЕЮ</i></h2>
+    <h3><a href="Розклад.htm">мій розклад на тиждень</a></h3>
+    <hr>
+    <p>Будь ласка, заповніть форму, щоб відправити мені повідомлення.</p>
+</center>
+
+<form action="ContactForm.php" method="post" id="form1"> 
+    <table width="400" align="center">
+        <tr>
+            <td>Ім’я: </td>
+            <td><input name="name" type="text"></td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Повідомлення:</td>
+            <td><textarea name="message" cols="40" rows="5" id="message"></textarea> </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="Відправити повідомлення"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+
+
+</html>
